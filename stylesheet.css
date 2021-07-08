@@ -1283,10 +1283,10 @@ o @keyframes bannar_come {
 }
 .message p {
   font-family: "Signika", sans-serif;
-  font-size: 30px;
+  font-size: 17px;
   text-transform: uppercase;
   color: #c4515c;
-  text-shadow: 2px 2px 2px #fff;
+  /* text-shadow: 2px 2px 2px #fff; */
   display: none;
   font-weight: bold;
 }
