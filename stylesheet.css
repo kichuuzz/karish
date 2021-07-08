@@ -1255,6 +1255,7 @@ o @keyframes bannar_come {
 .balloon-border {
   position: fixed;
   top: 100%;
+  left: 0px;
   opacity: 0.5;
   z-index: 9999;
 }
@@ -1324,4 +1325,15 @@ h3,
 .h3 {
   margin-top: 10px !important;
   margin-bottom: 10px !important;
+}
+
+.bdaybot {
+  width: 100%;
+  position: fixed;
+  bottom: 5px;
+  left: 0px;
+  justify-content: center;
+  text-align: center;
+}
+.bdaybotin {
 }
