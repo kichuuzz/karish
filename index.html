@@ -100,7 +100,9 @@
   <body>
     <div class="container" style='    height: 100%;
     width: 100%;'>
-      <div id="countdown">
+      <div id="countdown" style="
+      padding-top: 50%;
+  ">
         <h1 id="headline">Wait for sometime...</h1>
         <ul>
           <li><span id="days"></span>days</li>
@@ -250,7 +252,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-      let birthday = "Jul 7, 2021 23:40:00",
+      let birthday = "Jul 8, 2021 19:05:00",
         countDown = new Date(birthday).getTime(),
         x = setInterval(function () {
           let now = new Date().getTime(),
